@@ -1,0 +1,31 @@
+site_name: Documentation Obs'Nat
+site_description: 'Utilisation de ObsNat'
+site_author: 'Denis Vandromme'
+site_url: 'https://obsnat.fr/'
+copyright: 'Copyright 2018 Denis Vandromme'
+use_directory_urls: false
+nav:
+    - Accueil: index.md
+    - Utilisation: 
+        - Accueil: utilisation/accueil.md
+        - Saisie: utilisation/saisie.md
+    - Administration:
+        - Accueil: gestion/accueil.md
+theme:
+    language: fr
+    name: material
+    favicon: 'assets/images/favicon.ico'
+    logo: 'assets/images/logo.svg'
+    palette:
+        primary: Deep Orange
+        accent: orange
+extra_css:
+    - 'assets/stylesheets/extra.css'
+extra:
+    search:
+        language: 'fr'
+    social:
+        - type: 'github'
+markdown_extensions:
+    - admonition
+    - fontawesome_markdown
