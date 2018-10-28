@@ -4,13 +4,8 @@ site_author: 'Denis Vandromme'
 site_url: 'https://obsnat.fr/'
 copyright: 'Copyright 2018 Denis Vandromme'
 use_directory_urls: false
-nav:
-    - Accueil: index.md
-    - Utilisation: 
-        - Accueil: utilisation/accueil.md
-        - Saisie: utilisation/saisie.md
-    - Administration:
-        - Accueil: gestion/accueil.md
+repo_name: 'ObsNat'
+repo_url: https://github.com/Fonterland/ObsNat
 theme:
     language: fr
     name: material
@@ -25,7 +20,17 @@ extra:
     search:
         language: 'fr'
     social:
-        - type: 'github'
+        - type: 'github' 
+          link: 'https://github.com/Fonterland/ObsNat'
 markdown_extensions:
     - admonition
     - fontawesome_markdown
+    - toc:
+        permalink: true
+nav:
+    - Accueil: index.md
+    - Utilisation: 
+        - Accueil: utilisation/accueil.md
+        - Saisie: utilisation/saisie.md
+    - Administration:
+        - Accueil: gestion/accueil.md
