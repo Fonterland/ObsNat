@@ -31,6 +31,13 @@ nav:
     - Accueil: index.md
     - Utilisation: 
         - Accueil: utilisation/accueil.md
+        - Pages communes:
+            - Accueil général: utilisation/general.md
+            - Actualités: utilisation/actu.md
+            - Observations: utilisation/obs.md
+            - Consultation: utilisation/consult.md
         - Saisie: utilisation/saisie.md
+        - Observatoires:
+            - Accueil observatoire: utilisation/observatoire.md
     - Administration:
         - Accueil: gestion/accueil.md

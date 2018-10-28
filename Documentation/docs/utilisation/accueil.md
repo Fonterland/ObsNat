@@ -22,3 +22,7 @@ Sur cette page vous pouvez :
 	* Observatoire par défaut (page saisie et observation)
 	* Choix de l'organisme
 	* Vos type de donnée (cliquer sur le :fa-info-circle: pour savoir à quoi cela correspond)
+	* Autorisation de transmettre vos données
+	* Votre choix d'affichage pour les noms d'espèces
+	* Votre fond de carte
+	* Votre commune (ou département si emprise nationale) sur laquelle centrera la carte lors de la saisie
