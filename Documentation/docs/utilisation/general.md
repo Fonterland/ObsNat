@@ -35,14 +35,18 @@ Le premier élement du menu permet d'accéder aux différents [observatoires](ob
 
 Le reste du menu comprends :
 
-* ACTUS - Actualités (Optionnel)
-* OBS - Observations
-* CONSULT - Consultation (uniquement si membre)
-* RECH - Recherche
-* CARTO - Cartographie
-* BILAN - Bilan
-* SAISIE - Saisie 
-* AIDE DET. - Aide détermination (Optionnelle)
-* BIBLIO - Bibliographie (Optionnelle)
-* CONTACT
-* AIDE
+* :fa-file-text-o: [ACTUS - Actualités](actu.md) (Optionnel)
+* :fa-list-alt: [OBS - Observations](obs.md)
+* :fa-eye: [CONSULT - Consultation](consult.md) (Uniquement si membre)
+* :fa-search: RECH - Recherche
+* :fa-map-o: CARTO - Cartographie
+* :fa-bar-chart: BILAN - Bilan
+* :fa-pencil-square-o: [SAISIE - Saisie](saisie.md) (Uniquement si membre)
+* :fa-question-circle-o: AIDE DET. - Aide détermination (Uniquement si membre - Optionnelle)
+* :fa-book: BIBLIO - Bibliographie (Optionnelle)
+* :fa-envelope-o: CONTACT
+* :fa-info: AIDE
+
+##Barre du haut
+Dans la barre du haut se trouve un champ de recherche. Vous pouvez rechercher saisir un nom lation ou français, ou seulement une partie. La recherche ce fait
+sur l'ensemble des taxons du site.

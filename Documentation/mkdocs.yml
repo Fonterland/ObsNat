@@ -6,11 +6,14 @@ copyright: 'Copyright 2018 Denis Vandromme'
 use_directory_urls: false
 repo_name: 'ObsNat'
 repo_url: https://github.com/Fonterland/ObsNat
+edit_uri: ''
 theme:
     language: fr
     name: material
     favicon: 'assets/images/favicon.ico'
     logo: 'assets/images/logo.svg'
+    feature:
+        tabs: true
     palette:
         primary: Deep Orange
         accent: orange
@@ -30,13 +33,16 @@ markdown_extensions:
 nav:
     - Accueil: index.md
     - Utilisation: 
-        - Accueil: utilisation/accueil.md
+        - Débuter: utilisation/accueil.md
         - Pages communes:
             - Accueil général: utilisation/general.md
             - Actualités: utilisation/actu.md
             - Observations: utilisation/obs.md
             - Consultation: utilisation/consult.md
-        - Saisie: utilisation/saisie.md
+            - Saisie:
+                - Normal: utilisation/saisie.md
+                - Simplifier: utilisation/saisies.md
+                - Mobile: utilisation/saisiemob.md
         - Observatoires:
             - Accueil observatoire: utilisation/observatoire.md
     - Administration:
